@@ -42,7 +42,7 @@
                 method: 'POST',
             }
 
-            fetch("http:localhost:8081", body)
+            fetch("http://127.0.0.1:8080/", body)
                 .then((response) => response.json())
                 .then((data) => {
                     sent.innerHTML = "empty post request"
